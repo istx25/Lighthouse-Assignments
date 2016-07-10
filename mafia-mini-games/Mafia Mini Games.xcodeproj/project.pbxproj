@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F98EF31BE171F0004C8173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98EF21BE171F0004C8173 /* main.m */; };
+		A5F98EF61BE171F0004C8173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98EF51BE171F0004C8173 /* AppDelegate.m */; };
+		A5F98EF91BE171F0004C8173 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98EF81BE171F0004C8173 /* StartViewController.m */; };
+		A5F98EFC1BE171F0004C8173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F98EFA1BE171F0004C8173 /* Main.storyboard */; };
+		A5F98EFE1BE171F0004C8173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F98EFD1BE171F0004C8173 /* Assets.xcassets */; };
+		A5F98F011BE171F0004C8173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F98EFF1BE171F0004C8173 /* LaunchScreen.storyboard */; };
+		A5F98F0C1BE171F0004C8173 /* Mafia_Mini_GamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F0B1BE171F0004C8173 /* Mafia_Mini_GamesTests.m */; };
+		A5F98F181BE1731A004C8173 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F171BE1731A004C8173 /* FirstViewController.m */; };
+		A5F98F1C1BE19387004C8173 /* Roles.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F1B1BE19387004C8173 /* Roles.m */; };
+		A5F98F1F1BE19547004C8173 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F1E1BE19547004C8173 /* Player.m */; };
+		A5F98F221BE19695004C8173 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F211BE19695004C8173 /* GameModel.m */; };
+		A5F98F251BE1B672004C8173 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F98F241BE1B672004C8173 /* Questions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F98F081BE171F0004C8173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F98EE61BE171F0004C8173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F98EED1BE171F0004C8173;
+			remoteInfo = "Mafia Mini Games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F98EEE1BE171F0004C8173 /* Mafia Mini Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mafia Mini Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F98EF21BE171F0004C8173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F98EF41BE171F0004C8173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5F98EF51BE171F0004C8173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5F98EF71BE171F0004C8173 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		A5F98EF81BE171F0004C8173 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		A5F98EFB1BE171F0004C8173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F98EFD1BE171F0004C8173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F98F001BE171F0004C8173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F98F021BE171F0004C8173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F98F071BE171F0004C8173 /* Mafia Mini GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mafia Mini GamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F98F0B1BE171F0004C8173 /* Mafia_Mini_GamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mafia_Mini_GamesTests.m; sourceTree = "<group>"; };
+		A5F98F0D1BE171F0004C8173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F98F161BE1731A004C8173 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A5F98F171BE1731A004C8173 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A5F98F1A1BE19387004C8173 /* Roles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roles.h; sourceTree = "<group>"; };
+		A5F98F1B1BE19387004C8173 /* Roles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roles.m; sourceTree = "<group>"; };
+		A5F98F1D1BE19547004C8173 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A5F98F1E1BE19547004C8173 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		A5F98F201BE19695004C8173 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		A5F98F211BE19695004C8173 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		A5F98F231BE1B672004C8173 /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
+		A5F98F241BE1B672004C8173 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F98EEB1BE171F0004C8173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F98F041BE171F0004C8173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F98EE51BE171F0004C8173 = {
+			isa = PBXGroup;
+			children = (
+				A5F98EF01BE171F0004C8173 /* Mafia Mini Games */,
+				A5F98F0A1BE171F0004C8173 /* Mafia Mini GamesTests */,
+				A5F98EEF1BE171F0004C8173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F98EEF1BE171F0004C8173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98EEE1BE171F0004C8173 /* Mafia Mini Games.app */,
+				A5F98F071BE171F0004C8173 /* Mafia Mini GamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F98EF01BE171F0004C8173 /* Mafia Mini Games */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98EF41BE171F0004C8173 /* AppDelegate.h */,
+				A5F98EF51BE171F0004C8173 /* AppDelegate.m */,
+				A5F98EF71BE171F0004C8173 /* StartViewController.h */,
+				A5F98EF81BE171F0004C8173 /* StartViewController.m */,
+				A5F98F161BE1731A004C8173 /* FirstViewController.h */,
+				A5F98F171BE1731A004C8173 /* FirstViewController.m */,
+				A5F98F191BE19370004C8173 /* Model */,
+				A5F98EFA1BE171F0004C8173 /* Main.storyboard */,
+				A5F98EF11BE171F0004C8173 /* Supporting Files */,
+			);
+			path = "Mafia Mini Games";
+			sourceTree = "<group>";
+		};
+		A5F98EF11BE171F0004C8173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98EFD1BE171F0004C8173 /* Assets.xcassets */,
+				A5F98EFF1BE171F0004C8173 /* LaunchScreen.storyboard */,
+				A5F98F021BE171F0004C8173 /* Info.plist */,
+				A5F98EF21BE171F0004C8173 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5F98F0A1BE171F0004C8173 /* Mafia Mini GamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98F0B1BE171F0004C8173 /* Mafia_Mini_GamesTests.m */,
+				A5F98F0D1BE171F0004C8173 /* Info.plist */,
+			);
+			path = "Mafia Mini GamesTests";
+			sourceTree = "<group>";
+		};
+		A5F98F191BE19370004C8173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98F1A1BE19387004C8173 /* Roles.h */,
+				A5F98F1B1BE19387004C8173 /* Roles.m */,
+				A5F98F1D1BE19547004C8173 /* Player.h */,
+				A5F98F1E1BE19547004C8173 /* Player.m */,
+				A5F98F201BE19695004C8173 /* GameModel.h */,
+				A5F98F211BE19695004C8173 /* GameModel.m */,
+				A5F98F231BE1B672004C8173 /* Questions.h */,
+				A5F98F241BE1B672004C8173 /* Questions.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F98EED1BE171F0004C8173 /* Mafia Mini Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F98F101BE171F0004C8173 /* Build configuration list for PBXNativeTarget "Mafia Mini Games" */;
+			buildPhases = (
+				A5F98EEA1BE171F0004C8173 /* Sources */,
+				A5F98EEB1BE171F0004C8173 /* Frameworks */,
+				A5F98EEC1BE171F0004C8173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mafia Mini Games";
+			productName = "Mafia Mini Games";
+			productReference = A5F98EEE1BE171F0004C8173 /* Mafia Mini Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F98F061BE171F0004C8173 /* Mafia Mini GamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F98F131BE171F0004C8173 /* Build configuration list for PBXNativeTarget "Mafia Mini GamesTests" */;
+			buildPhases = (
+				A5F98F031BE171F0004C8173 /* Sources */,
+				A5F98F041BE171F0004C8173 /* Frameworks */,
+				A5F98F051BE171F0004C8173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F98F091BE171F0004C8173 /* PBXTargetDependency */,
+			);
+			name = "Mafia Mini GamesTests";
+			productName = "Mafia Mini GamesTests";
+			productReference = A5F98F071BE171F0004C8173 /* Mafia Mini GamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F98EE61BE171F0004C8173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cosmic Labs";
+				TargetAttributes = {
+					A5F98EED1BE171F0004C8173 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A5F98F061BE171F0004C8173 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A5F98EED1BE171F0004C8173;
+					};
+				};
+			};
+			buildConfigurationList = A5F98EE91BE171F0004C8173 /* Build configuration list for PBXProject "Mafia Mini Games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F98EE51BE171F0004C8173;
+			productRefGroup = A5F98EEF1BE171F0004C8173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F98EED1BE171F0004C8173 /* Mafia Mini Games */,
+				A5F98F061BE171F0004C8173 /* Mafia Mini GamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F98EEC1BE171F0004C8173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F98F011BE171F0004C8173 /* LaunchScreen.storyboard in Resources */,
+				A5F98EFE1BE171F0004C8173 /* Assets.xcassets in Resources */,
+				A5F98EFC1BE171F0004C8173 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F98F051BE171F0004C8173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F98EEA1BE171F0004C8173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F98F181BE1731A004C8173 /* FirstViewController.m in Sources */,
+				A5F98F251BE1B672004C8173 /* Questions.m in Sources */,
+				A5F98EF91BE171F0004C8173 /* StartViewController.m in Sources */,
+				A5F98EF61BE171F0004C8173 /* AppDelegate.m in Sources */,
+				A5F98EF31BE171F0004C8173 /* main.m in Sources */,
+				A5F98F1F1BE19547004C8173 /* Player.m in Sources */,
+				A5F98F1C1BE19387004C8173 /* Roles.m in Sources */,
+				A5F98F221BE19695004C8173 /* GameModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F98F031BE171F0004C8173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F98F0C1BE171F0004C8173 /* Mafia_Mini_GamesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F98F091BE171F0004C8173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F98EED1BE171F0004C8173 /* Mafia Mini Games */;
+			targetProxy = A5F98F081BE171F0004C8173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F98EFA1BE171F0004C8173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F98EFB1BE171F0004C8173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F98EFF1BE171F0004C8173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F98F001BE171F0004C8173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F98F0E1BE171F0004C8173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5F98F0F1BE171F0004C8173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F98F111BE171F0004C8173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mafia Mini Games/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.Mafia-Mini-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5F98F121BE171F0004C8173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mafia Mini Games/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.Mafia-Mini-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5F98F141BE171F0004C8173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mafia Mini GamesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.Mafia-Mini-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia Mini Games.app/Mafia Mini Games";
+			};
+			name = Debug;
+		};
+		A5F98F151BE171F0004C8173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mafia Mini GamesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.Mafia-Mini-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia Mini Games.app/Mafia Mini Games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F98EE91BE171F0004C8173 /* Build configuration list for PBXProject "Mafia Mini Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F98F0E1BE171F0004C8173 /* Debug */,
+				A5F98F0F1BE171F0004C8173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F98F101BE171F0004C8173 /* Build configuration list for PBXNativeTarget "Mafia Mini Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F98F111BE171F0004C8173 /* Debug */,
+				A5F98F121BE171F0004C8173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F98F131BE171F0004C8173 /* Build configuration list for PBXNativeTarget "Mafia Mini GamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F98F141BE171F0004C8173 /* Debug */,
+				A5F98F151BE171F0004C8173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F98EE61BE171F0004C8173 /* Project object */;
+}
