@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xPs-W1-ifd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Storybook Page View Controller-->
+        <scene sceneID="BPn-KE-N0g">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="xPs-W1-ifd" customClass="StorybookPageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wI8-OG-BKO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="233" y="99"/>
+        </scene>
+        <!--Story Part View Controller-->
+        <scene sceneID="crM-aS-JR4">
+            <objects>
+                <viewController storyboardIdentifier="storyPartViewController" id="ycP-XZ-8vx" customClass="StoryPartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u02-9N-ejF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y9J-dM-Cpj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tio-13-gmq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rtc-KN-ilQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="klY-lJ-xBh" appends="YES" id="ibY-he-YnH"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF4-EL-gxI">
+                                <rect key="frame" x="0.0" y="553" width="98" height="47"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="7bI-R2-Mys"/>
+                                    <constraint firstAttribute="height" constant="47" id="t8P-ZB-GX3"/>
+                                </constraints>
+                                <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="recordAudioButtonPressed:" destination="ycP-XZ-8vx" eventType="touchUpInside" id="wQ0-jF-tJA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1S-cD-FuS">
+                                <rect key="frame" x="502" y="553" width="98" height="47"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="NPL-kL-wuh"/>
+                                    <constraint firstAttribute="width" constant="98" id="rM0-m8-exO"/>
+                                </constraints>
+                                <state key="normal" title="Image"/>
+                                <connections>
+                                    <action selector="captureImageButtonPressed:" destination="ycP-XZ-8vx" eventType="touchUpInside" id="hb2-cp-Ey9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rtc-KN-ilQ" firstAttribute="leading" secondItem="tio-13-gmq" secondAttribute="leading" id="Alq-ai-ERS"/>
+                            <constraint firstAttribute="trailing" secondItem="Rtc-KN-ilQ" secondAttribute="trailing" id="IHw-0a-os1"/>
+                            <constraint firstItem="Y9J-dM-Cpj" firstAttribute="top" secondItem="vF4-EL-gxI" secondAttribute="bottom" id="Nbd-fS-Egc"/>
+                            <constraint firstItem="Y9J-dM-Cpj" firstAttribute="top" secondItem="U1S-cD-FuS" secondAttribute="bottom" id="OxC-qV-zXu"/>
+                            <constraint firstItem="Y9J-dM-Cpj" firstAttribute="top" secondItem="Rtc-KN-ilQ" secondAttribute="bottom" id="YUq-gX-vWd"/>
+                            <constraint firstAttribute="trailing" secondItem="U1S-cD-FuS" secondAttribute="trailing" id="axQ-27-fUg"/>
+                            <constraint firstItem="vF4-EL-gxI" firstAttribute="leading" secondItem="tio-13-gmq" secondAttribute="leading" id="pm5-wM-e97"/>
+                            <constraint firstItem="Rtc-KN-ilQ" firstAttribute="top" secondItem="tio-13-gmq" secondAttribute="top" id="yYl-l6-C7F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="captureImageButton" destination="U1S-cD-FuS" id="j5m-OG-cnQ"/>
+                        <outlet property="pageImageView" destination="Rtc-KN-ilQ" id="FPZ-p8-lhh"/>
+                        <outlet property="recordAudioButton" destination="vF4-EL-gxI" id="4Ad-8Z-EWx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cM0-O5-J07" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="klY-lJ-xBh">
+                    <connections>
+                        <action selector="pageImageViewTapped:" destination="ycP-XZ-8vx" id="IA4-s3-Ur6"/>
+                        <outlet property="delegate" destination="ycP-XZ-8vx" id="kjM-ZX-rAS"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="233" y="830"/>
+        </scene>
+    </scenes>
+</document>
