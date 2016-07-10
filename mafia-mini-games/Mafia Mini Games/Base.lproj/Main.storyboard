@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Umi-zy-NP4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARz-RH-LyV">
+                                <rect key="frame" x="95" y="232" width="131" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="3io-Pk-teu"/>
+                                    <constraint firstAttribute="height" constant="30" id="ZAI-dO-bni"/>
+                                </constraints>
+                                <state key="normal" title="Sheriff"/>
+                                <connections>
+                                    <segue destination="UoN-s2-qvV" kind="show" identifier="segueToMiniGameAsSheriff" id="y0m-8K-Jz0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8v-c6-06Q">
+                                <rect key="frame" x="95" y="304.5" width="131" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="07d-Ay-eYv"/>
+                                    <constraint firstAttribute="height" constant="30" id="UWU-Lk-lOk"/>
+                                </constraints>
+                                <state key="normal" title="Mafia Member"/>
+                                <connections>
+                                    <segue destination="UoN-s2-qvV" kind="show" identifier="segueToMiniGameAsMafiaMember" id="7MA-3d-oXH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ARz-RH-LyV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="27H-cN-RBK"/>
+                            <constraint firstItem="u8v-c6-06Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.125" id="CdA-F7-cKw"/>
+                            <constraint firstItem="ARz-RH-LyV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.87" id="LNy-CK-sVW"/>
+                            <constraint firstItem="u8v-c6-06Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bc5-4H-bn7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fqJ-3J-Y86"/>
+                    <connections>
+                        <outlet property="startAsMafiaMember" destination="u8v-c6-06Q" id="6BB-9f-Clb"/>
+                        <outlet property="startAsSheriff" destination="ARz-RH-LyV" id="XX3-Et-oa4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1147" y="387"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="mCo-V9-ooB">
+            <objects>
+                <viewController id="UoN-s2-qvV" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cxf-Nh-Frb"/>
+                        <viewControllerLayoutGuide type="bottom" id="kgG-AF-188"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GC6-ZO-jna">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are playing as the Sheriff" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSE-dD-Sla">
+                                <rect key="frame" x="49" y="132" width="223" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mafia Member: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvA-My-qyX">
+                                <rect key="frame" x="95.5" y="260" width="129.5" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Innocent Lives: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aen-Af-LJE">
+                                <rect key="frame" x="95" y="202" width="130" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3a-va-6Tp">
+                                <rect key="frame" x="90" y="436" width="141" height="48"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Cib-ig-bvc"/>
+                                    <constraint firstAttribute="width" constant="141" id="bba-57-hhK"/>
+                                </constraints>
+                                <state key="normal" title="Start Game"/>
+                                <connections>
+                                    <segue destination="WTK-Aa-pt7" kind="show" id="EfH-Wh-s7H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y3a-va-6Tp" firstAttribute="centerX" secondItem="GC6-ZO-jna" secondAttribute="centerX" id="73E-EP-Ur2"/>
+                            <constraint firstItem="MSE-dD-Sla" firstAttribute="centerX" secondItem="GC6-ZO-jna" secondAttribute="centerX" id="8KY-yP-NSg"/>
+                            <constraint firstItem="QvA-My-qyX" firstAttribute="centerX" secondItem="GC6-ZO-jna" secondAttribute="centerX" id="PB4-OS-WgK"/>
+                            <constraint firstItem="QvA-My-qyX" firstAttribute="top" secondItem="aen-Af-LJE" secondAttribute="bottom" constant="37.5" id="UOl-c7-0Uj"/>
+                            <constraint firstItem="MSE-dD-Sla" firstAttribute="centerY" secondItem="GC6-ZO-jna" secondAttribute="centerY" multiplier="0.5" id="YRP-du-IEk"/>
+                            <constraint firstItem="aen-Af-LJE" firstAttribute="top" secondItem="MSE-dD-Sla" secondAttribute="bottom" constant="49.5" id="jOb-Dy-Hgj"/>
+                            <constraint firstItem="kgG-AF-188" firstAttribute="top" secondItem="Y3a-va-6Tp" secondAttribute="bottom" constant="84" id="nrB-Vp-Wl5"/>
+                            <constraint firstItem="aen-Af-LJE" firstAttribute="centerX" secondItem="GC6-ZO-jna" secondAttribute="centerX" id="u70-0Y-Frg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="innocentVillagersCountLabel" destination="aen-Af-LJE" id="Tkh-ME-jgq"/>
+                        <outlet property="mafiaMembersCountLabel" destination="QvA-My-qyX" id="5Lq-FE-lIa"/>
+                        <outlet property="playerTypeLabel" destination="MSE-dD-Sla" id="WtB-KC-TxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKs-Ng-TFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="387"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ddc-8t-lNt">
+            <objects>
+                <viewController id="WTK-Aa-pt7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wmf-hc-IGE"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Hu-2Q-gaD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3b8-ln-B6n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IV-4d-Hds">
+                                <rect key="frame" x="81" y="309" width="158" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="U1Q-zp-Jj1"/>
+                                    <constraint firstAttribute="height" constant="48" id="bct-eI-fSd"/>
+                                </constraints>
+                                <state key="normal" title="Yes"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you like koala bears?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1C-cN-9Me">
+                                <rect key="frame" x="26" y="191" width="268" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UW-nm-5Lj">
+                                <rect key="frame" x="81" y="382" width="158" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="yVD-gj-gtn"/>
+                                    <constraint firstAttribute="height" constant="48" id="yZP-6o-0Wz"/>
+                                </constraints>
+                                <state key="normal" title="No"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v1C-cN-9Me" firstAttribute="centerX" secondItem="3b8-ln-B6n" secondAttribute="centerX" id="59q-5H-n5I"/>
+                            <constraint firstItem="7IV-4d-Hds" firstAttribute="centerX" secondItem="3b8-ln-B6n" secondAttribute="centerX" id="Ddg-vQ-GRJ"/>
+                            <constraint firstItem="6UW-nm-5Lj" firstAttribute="centerX" secondItem="3b8-ln-B6n" secondAttribute="centerX" id="bNp-y5-kA6"/>
+                            <constraint firstItem="6UW-nm-5Lj" firstAttribute="top" secondItem="7IV-4d-Hds" secondAttribute="bottom" constant="25" id="sop-as-Eva"/>
+                            <constraint firstItem="v1C-cN-9Me" firstAttribute="centerY" secondItem="3b8-ln-B6n" secondAttribute="centerY" multiplier="0.725" id="tbR-Sq-N0o"/>
+                            <constraint firstItem="7IV-4d-Hds" firstAttribute="top" secondItem="v1C-cN-9Me" secondAttribute="bottom" constant="88" id="w5M-Eb-7GO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0i-cv-sEl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2274" y="387"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ICK-Je-39S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Umi-zy-NP4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dBe-ZL-Oad">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ihu-tg-REI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SXF-zB-Z7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="387"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="y0m-8K-Jz0"/>
+    </inferredMetricsTieBreakers>
+</document>
