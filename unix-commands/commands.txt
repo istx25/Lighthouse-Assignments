@@ -1,0 +1,4 @@
+$ history | grep cat | wc -l
+$ cat /usr/share/dict/words | grep "^a"
+$ cat /usr/share/dict/words | grep "^a" | grep "m$"
+$ wget www.lighthouselabs.ca/index.html
