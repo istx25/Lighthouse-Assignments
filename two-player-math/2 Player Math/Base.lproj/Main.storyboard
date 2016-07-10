@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P2 Points: 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0L-YM-MIZ">
+                                <rect key="frame" x="20" y="57" width="113" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P1 Lives: 3" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3s8-Jo-e5m">
+                                <rect key="frame" x="204" y="28" width="96" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P1 Points: 10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sX-4W-bnP">
+                                <rect key="frame" x="20" y="28" width="113" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P2 Lives: 3" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tug-r4-mHG">
+                                <rect key="frame" x="204" y="57" width="96" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1: X + Y?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEt-Po-Abd">
+                                <rect key="frame" x="93" y="103" width="135" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Provided Answer: ??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfB-KU-DV8">
+                                <rect key="frame" x="35" y="132" width="250" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgZ-vt-04j">
+                                <rect key="frame" x="37" y="196" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876745200701" green="0.83659876745200701" blue="0.83659876745200701" alpha="0.79831560283687941" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="buttonOneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJN-vT-ya3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlh-Ob-tir">
+                                <rect key="frame" x="126" y="196" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="buttonTwoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dTY-6K-eIg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tcg-x0-bwn">
+                                <rect key="frame" x="215" y="196" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="buttonThreeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Adh-gB-L7f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgd-AQ-zFL">
+                                <rect key="frame" x="37" y="264" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="buttonFourAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tko-In-ovS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZu-TH-Fh6">
+                                <rect key="frame" x="126" y="264" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="buttonFiveAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5MF-V2-wa3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VW-gH-Tur">
+                                <rect key="frame" x="215" y="264" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="buttonSixAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCu-dF-RPO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvr-zh-iGG">
+                                <rect key="frame" x="37" y="332" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="buttonSevenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="moi-2a-sep"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="got-mQ-fkD">
+                                <rect key="frame" x="37" y="400" width="158" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Enter"/>
+                                <connections>
+                                    <action selector="enterButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbQ-tF-qzU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kP-cr-xXP">
+                                <rect key="frame" x="126" y="332" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="buttonEightAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xt1-Yk-IQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av2-mh-vtd">
+                                <rect key="frame" x="215" y="332" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="buttonNineAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YK1-SR-4JV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXN-TD-XmP">
+                                <rect key="frame" x="215" y="400" width="69" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83659876749999995" green="0.83659876749999995" blue="0.83659876749999995" alpha="0.79831560280000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="buttonZeroAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JbF-Zo-AaN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="gfB-KU-DV8" id="WOH-hq-TEm"/>
+                        <outlet property="playerOneLivesLabel" destination="3s8-Jo-e5m" id="YxX-05-JD3"/>
+                        <outlet property="playerOnePointsLabel" destination="9sX-4W-bnP" id="Prb-nV-2hy"/>
+                        <outlet property="playerTwoLivesLabel" destination="tug-r4-mHG" id="U2Z-Hb-NEW"/>
+                        <outlet property="playerTwoPointsLabel" destination="z0L-YM-MIZ" id="zDH-C5-fmb"/>
+                        <outlet property="questionLabel" destination="TEt-Po-Abd" id="T6b-17-bQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+</document>
